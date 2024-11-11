@@ -1,0 +1,7 @@
+import numpy as np
+k=np.random.uniform(0,10,5)
+vt=2
+m=(k>vt).sum()
+print(k)
+print("the numbers above vt is",m)
+print('the print below vt is',k.shape[0]-m)
